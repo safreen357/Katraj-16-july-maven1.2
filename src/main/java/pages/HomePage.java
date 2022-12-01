@@ -6,7 +6,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
-	
+	//@FindBy(xpath = "//li[@class='oxd-userdropdown']")
+	//public WebElement profile;
+
 	@FindBy(xpath = "//li[@class='oxd-userdropdown']")
 	public WebElement profile;
 	
